@@ -1,5 +1,7 @@
 # Classic Sponza - Unity Remaster
 
+![CrytekSponza-HDRP01](https://user-images.githubusercontent.com/1553981/194593377-16cda3be-8eab-4bc0-8e03-7811c0d24750.jpg)
+
 ## Summary
 
 The Atrium Sponza Palace scene is widely used by graphics programmers and artists. It provides with an ideal lighting test environment, as it features both indoor and outdoor areas. 
