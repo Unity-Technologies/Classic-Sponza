@@ -1,6 +1,6 @@
 # Classic Sponza - Unity Remaster
 
-![CrytekSponza-HDRP01](https://user-images.githubusercontent.com/1553981/194593377-16cda3be-8eab-4bc0-8e03-7811c0d24750.jpg)
+![Sponza-HDRP-4](https://user-images.githubusercontent.com/1553981/194602585-91518cf8-8ee5-486b-946b-991d5bb3148e.jpg)
 
 ## Summary
 
