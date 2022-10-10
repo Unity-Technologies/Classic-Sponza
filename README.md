@@ -28,9 +28,9 @@ This project makes use of [Git Large Files Support (LFS)](https://git-lfs.github
 #### Branch structure
 
 This project contains multiple branches:
-* [`main`](https://github.com/Unity-Technologies/Classic-Sponza/tree/main) branch contains High Definition Render Pipeline version of the project.
-* [`URP`](https://github.com/Unity-Technologies/Classic-Sponza/tree/URP) branch contains Universal Render Pipeline version of the project.
-* [`BiRP`](https://github.com/Unity-Technologies/Classic-Sponza/tree/BiRP) branch contains Built-in Render Pipeline version of the project.
+* [`main`](https://github.com/Unity-Technologies/Classic-Sponza/tree/main) branch contains the **High Definition Render Pipeline** version of the project.
+* [`URP`](https://github.com/Unity-Technologies/Classic-Sponza/tree/URP) branch contains the **Universal Render Pipeline** version of the project.
+* [`BiRP`](https://github.com/Unity-Technologies/Classic-Sponza/tree/BiRP) branch contains the **Built-in Render Pipeline** version of the project.
 
 After pulling the project, checkout the branch which contains your desired render pipeline version of the project.
 
