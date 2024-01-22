@@ -15,14 +15,19 @@ MonoBehaviour:
   version: 4
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Column_A
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICGLOSSMAP _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
+  m_ValidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_InvalidKeywords:
+  - _METALLICSPECGLOSSMAP
+  - _OCCLUSIONMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -115,7 +120,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 295a39c729312ba44ba85c622e35e122, type: 3}
+        m_Texture: {fileID: 2800000, guid: 447c81082d1b2ee4ba731b9175a3bc83, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -174,6 +179,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AORemapMax: 0.9999999
     - _AORemapMin: 0

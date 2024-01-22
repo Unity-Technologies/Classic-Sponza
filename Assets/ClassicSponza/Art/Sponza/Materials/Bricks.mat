@@ -15,15 +15,20 @@ MonoBehaviour:
   version: 4
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Bricks
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICGLOSSMAP _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
-    _PARALLAXMAP
+  m_ValidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  - _PARALLAXMAP
+  m_InvalidKeywords:
+  - _METALLICSPECGLOSSMAP
+  - _OCCLUSIONMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -60,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: b7212cb7a7168a847ac377060c87545c, type: 3}
+        m_Texture: {fileID: 2800000, guid: b14744a41f4097748bd9baf60dd64ef8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
@@ -116,7 +121,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: dfbec9d7128dc9e4aa62a74686bfd08e, type: 3}
+        m_Texture: {fileID: 2800000, guid: f866f756d992dca4b81d1e080d1b2c2d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -128,7 +133,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: ae3c36848279c4a46adc84e668d9b20d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 37439bdbbfa1ffa4c8f797729423b8ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -175,6 +180,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AORemapMax: 1
     - _AORemapMin: 0

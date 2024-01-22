@@ -28,14 +28,19 @@ MonoBehaviour:
   version: 11
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Vase_Octagonal
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICGLOSSMAP _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
+  m_ValidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_InvalidKeywords:
+  - _METALLICSPECGLOSSMAP
+  - _OCCLUSIONMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -72,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: ad7d5e88445579f44b280004ec762d91, type: 3}
+        m_Texture: {fileID: 2800000, guid: aa70c448e3e22614ca7d6d2374e9a45d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
@@ -128,7 +133,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 4f0fef71efe0b7c4eb516992bd9c6c2a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8a7f51c1eb02de948b1bb49bd36bf372, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -187,6 +192,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AORemapMax: 1
     - _AORemapMin: 0.19135365
@@ -282,7 +288,7 @@ Material:
     - _Mode: 0
     - _NormalMapSpace: 0
     - _NormalScale: 0.5
-    - _OcclusionStrength: 0.8
+    - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
